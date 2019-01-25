@@ -1,0 +1,20 @@
+Source: res-ari-stream
+Priority: extra
+Maintainer: Sylvain Boily <sylvain@wazo.io>
+Build-Depends: debhelper (>= 7.0.50~), asterisk-dev (>= 16.0.0)
+Standards-Version: 3.8.4
+Section: comm
+
+Package: res-ari-stream
+Section: comm
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, asterisk (>= 16.0.0)
+Description: Module to stream audio channel via Asterisk
+ Module to stream audio channel Asterisk via ARI
+
+Package: res-ari-stream-dbg
+Section: comm
+Architecture: any
+Depends: res-ari-stream (= ${Source-Version})
+Description: Module to stream audio channel via Asterisk
+ Module to stream audio channel Asterisk via ARI
