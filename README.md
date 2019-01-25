@@ -19,8 +19,8 @@ To use
 Loading module
 
     asterisk -r
-    CLI> modules unload res_ari_stream.so
-    CLI> modules load res_ari_stream.so
+    CLI> module unload res_ari_stream.so
+    CLI> module load res_ari_stream.so
 
 Docker
 ------
