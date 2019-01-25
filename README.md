@@ -1,4 +1,4 @@
-ARI Stream audio channel module for Asterisk
+Websocket Stream audio channel module for Asterisk
 ============================================
 
 This provides a websocket ARI resource for streaming audio channel Asterisk.
