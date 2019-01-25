@@ -1,7 +1,7 @@
 Websocket Stream audio channel module for Asterisk
 ============================================
 
-This provides a websocket ARI resource for streaming audio channel Asterisk.
+This provides a websocket resource for streaming audio channel Asterisk.
 It works with asterisk versions 16.x or later
 
 Requirements
