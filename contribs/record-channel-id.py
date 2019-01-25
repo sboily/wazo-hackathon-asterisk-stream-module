@@ -1,11 +1,6 @@
+#!/usr/bin/env python3
 import websocket
 import sys
-
-try:
-    import thread
-except ImportError:
-    import _thread as thread
-import time
 
 out = open("out.wav", "wb")
 
@@ -24,6 +19,4 @@ if __name__ == "__main__":
                               on_message = on_message,
                               on_error = on_error,
                               on_close = on_close, subprotocols=["stream-channel"], header=['Channel-ID: ' + sys.argv[1]])
-    ws.on_open = on_open
     ws.run_forever()
-
