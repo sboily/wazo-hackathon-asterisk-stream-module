@@ -30,10 +30,10 @@ install: $(TARGET)
 	mkdir -p $(DESTDIR)/usr/lib/asterisk/modules
 	install -m 644 $(TARGET) $(DESTDIR)/usr/lib/asterisk/modules/
 	@echo " +----- res_ari_stream installed ------+"
-	@echo " +                                           +"
-	@echo " + res_ari_stream has successfully           +"
-	@echo " + been installed.                           +"
-	@echo " +-------------------------------------------+"
+	@echo " +                                     +"
+	@echo " + res_ari_stream has successfully     +"
+	@echo " + been installed.                     +"
+	@echo " +-------------------------------------+"
 
 clean:
 	rm -f $(OBJECTS)
