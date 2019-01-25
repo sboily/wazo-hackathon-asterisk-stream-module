@@ -35,4 +35,4 @@ To build image to test with docker.
 Use it
 ------
 
-Check our example in contribs directory. You need to send the subprotocol stream-channel with a http header Channel-ID which contains the channel id you would like to stream.
+Check our example in contribs directory. You need to send the subprotocol *stream-channel* with a http header *Channel-ID* which contains the channel id you would like to stream.
