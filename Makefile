@@ -38,7 +38,3 @@ install: $(TARGET)
 clean:
 	rm -f $(OBJECTS)
 	rm -f $(TARGET)
-
-samples:
-	$(INSTALL) -m 644 $(SAMPLENAME) $(DESTDIR)$(ASTETCDIR)/$(CONFNAME)
-	@echo " ------- res_ari_stream config installed ---------"
